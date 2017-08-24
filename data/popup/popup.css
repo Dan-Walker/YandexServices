@@ -80,7 +80,7 @@ tr td[type='disk'] {background: url(./icons/disk.png) no-repeat center center;}
 tr td[type='translate'] {background: url(./icons/translate.png) no-repeat center center;}
 tr td[type='audience'] {background: url(./icons/audience.png) no-repeat center center;}
 tr td[type='direkt'] {background: url(./icons/direkt.png) no-repeat center center;}
-tr td[type='display'] {background: url(./icons/display.png) no-repeat center center;}
+tr td[type='metro'] {background: url(./icons/metro.png) no-repeat center center;}
 tr td[type='time'] {background: url(./icons/time.png) no-repeat center center;}
 tr td[type='webmaster'] {background: url(./icons/webmaster.png) no-repeat center center;}
 tr td[type='stat'] {background: url(./icons/stat.png) no-repeat center center;}
@@ -121,6 +121,7 @@ tr td[type='dns'] {background: url(./icons/dns.png) no-repeat center center;}
 tr td[type='spreechkit'] {background: url(./icons/spreechkit.png) no-repeat center center;}
 tr td[type='xml'] {background: url(./icons/xml.png) no-repeat center center;}
 tr td[type='factory'] {background: url(./icons/factory.png) no-repeat center center;}
+tr td[type='toloka'] {background: url(./icons/toloka.png) no-repeat center center;}
 /*  */
 tr td[type='emptyCell'] {
   background: url(./icons/emptyCell.png) no-repeat center center;
