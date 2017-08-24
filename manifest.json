@@ -1,29 +1,33 @@
 {
-  "version": "1.1.9",
-  "manifest_version": 2,
-  "short_name": "igshortcuts",
-  "name": "Yandex™ Services",
-  "description": "All necessary services Yandex is always near in the bottom place.",
-  "permissions": [
-    "tabs",
-    "storage",
-  ],
-  "browser_action": {
-    "default_icon": {
-      "16": "data/icon16.png",
-      "32": "data/icon32.png"
-    },
-    "default_popup": "data/popup/popup.html",
-    "default_title": "Yandex™ Services"
-  },
   "background": {
     "page": "lib/chrome/background.html"
-  },
+  }, 
+  "browser_action": {
+    "default_icon": {
+      "16": "data/icon16.png", 
+      "32": "data/icon32.png"
+    }, 
+    "default_popup": "data/popup/popup.html", 
+    "default_title": "Yandex™ Services"
+  }, 
+  "description": "All necessary services Yandex is always near in the bottom place.", 
+  "developer": {
+    "name": "dan-walker"
+  }, 
   "icons": {
-    "16": "data/icon16.png",
-    "32": "data/icon32.png",
-    "48": "data/icon48.png",
-    "64": "data/icon64.png",
-    "128": "data/icon128.png"
-  }
+    "128": "data/icon128.png", 
+    "16": "data/icon16.png", 
+    "32": "data/icon32.png", 
+    "48": "data/icon48.png", 
+    "64": "data/icon64.png"
+  }, 
+  "manifest_version": 2, 
+  "name": "Yandex™ Services", 
+  "permissions": [
+    "tabs", 
+    "storage"
+  ], 
+  "short_name": "dan", 
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/", 
+  "version": "1.2.1"
 }
